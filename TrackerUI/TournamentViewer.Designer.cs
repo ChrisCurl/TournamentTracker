@@ -51,9 +51,10 @@
             this.headerLabel.ForeColor = System.Drawing.Color.DarkRed;
             this.headerLabel.Location = new System.Drawing.Point(12, 9);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(226, 50);
+            this.headerLabel.Size = new System.Drawing.Size(218, 50);
             this.headerLabel.TabIndex = 0;
-            this.headerLabel.Text = "Tournament:";
+            this.headerLabel.Text = "Tournament";
+            this.headerLabel.Click += new System.EventHandler(this.HeaderLabel_Click);
             // 
             // tournamentName
             // 
@@ -65,6 +66,7 @@
             this.tournamentName.Size = new System.Drawing.Size(155, 50);
             this.tournamentName.TabIndex = 1;
             this.tournamentName.Text = "<none>";
+            this.tournamentName.Click += new System.EventHandler(this.TournamentName_Click);
             // 
             // roundLabel
             // 
@@ -113,7 +115,7 @@
             this.teamOneName.AutoSize = true;
             this.teamOneName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamOneName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.teamOneName.Location = new System.Drawing.Point(438, 186);
+            this.teamOneName.Location = new System.Drawing.Point(438, 187);
             this.teamOneName.Name = "teamOneName";
             this.teamOneName.Size = new System.Drawing.Size(165, 37);
             this.teamOneName.TabIndex = 6;
@@ -181,8 +183,8 @@
             // scoreButton
             // 
             this.scoreButton.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.scoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.scoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scoreButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreButton.ForeColor = System.Drawing.Color.Cyan;
