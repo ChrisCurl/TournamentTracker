@@ -149,6 +149,7 @@
             this.createPrizeLabel.TabIndex = 26;
             this.createPrizeLabel.Text = "Create Prize";
             this.createPrizeLabel.UseVisualStyleBackColor = true;
+            this.createPrizeLabel.Click += new System.EventHandler(this.createPrizeLabel_Click);
             // 
             // CreatePrizeForm
             // 

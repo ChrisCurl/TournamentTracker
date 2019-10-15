@@ -145,5 +145,11 @@
   <ItemGroup>
     <Content Include="VideoTime.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackerLibrary\TrackerLibrary.csproj">
+      <Project>{17a34151-108b-4dc5-8c76-22f650f5ae1a}</Project>
+      <Name>TrackerLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
